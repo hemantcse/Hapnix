@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Developers</title>
+  <title>HAPNIX</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -43,8 +43,8 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="courses.html">Services</a></li>
-          <li><a class="active" href="trainers.html">Developers</a></li>
+          <li><a class="active" href="courses.html">Services</a></li>
+          <li><a href="trainers.html">Developers</a></li>
           <li><a href="pricing.html">Pricing</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -71,90 +71,122 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="SignIn/index.html" class="get-started-btn">LOGIN</a>
+      <a href="SignIn_form.html" class="get-started-btn">LOGIN</a>
 
     </div>
   </header><!-- End Header -->
 
-  <main id="main" data-aos="fade-in">
+  <main id="main" data-aos="fade-in" >
 
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs" style="background-color:black">
       <div class="container">
-        <h2>Developers</h2>
-        <p>We're committed to staying at the forefront of technological advancements and developing innovative products that meet the evolving needs of our clients</p>
+        <h2>Models</h2>
+        <p>Below is the following machine learning model product</p>
       </div>
     </div><!-- End Breadcrumbs -->
 
-    <!-- ======= Trainers Section ======= -->
-    <section id="trainers" class="trainers">
+    <!-- ======= Courses Section ======= -->
+    <section id="courses" class="courses">
       <div class="container" data-aos="fade-up">
 
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
-              <div class="member-content">
-                <h4>HEMANT</h4>
-                <span>Web Development</span>
-                <p>
-                  "Crafting digital experiences that captivate and inspire, one website at a time,
-                   Transforming your vision into a stunning online reality with expert web development."
-                </p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
-              <div class="member-content">
-                <h4>PRABHAT</h4>
-                <span>MACHINE LEARNING</span>
-                <p>
-                  "Unleashing the power of data through cutting-edge Machine Learning solutions,
-                      Elevating your business with intelligent algorithms and data-driven insights."
-                </p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+            <div class="course-item">
+              <img src="assets/img/face-600x900.png" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Face Recognition</h4>
+                  <p class="price">$169</p>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
-              <div class="member-content">
-                <h4>NANCY</h4>
-                <span>Android Development</span>
-                <p>
-                  "Building innovative and user-friendly Android apps that redefine mobile experiences
-                  ,From concept to deployment, we bring your Android app ideas to life with precision and expertise."
-                </p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                <h3><a href="#"></a></h3>
+                <p>Deep learning CNN KNN</p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <img src="assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
+                    <span>PRABHAT</span>
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    <i class="bx bx-user"></i>&nbsp;50
+                    &nbsp;&nbsp;
+                    <i class="bx bx-heart"></i>&nbsp;65
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          </div> <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="assets/img/face-600x900.png" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4><a href="http://127.0.0.1:5000"><button id="startFlaskApp">Student Engagement System During E-Learning</button></a></h4>
+                  <p class="price">$250</p>
+                </div>
+                <h3></h3>
+                <script>
+                  document.getElementById("startFlaskApp").addEventListener("click", function() {
+                  // Use AJAX (or fetch) to send a request to the server-side script
+                  // when the button is clicked.
+                  // Replace 'path/to/app.py' with the actual path to your app.py file.
+                  var appPath = 'D:/STARTUP1/Mentor/app.py';
+                  console.log("Trigger Command Work Correctly")
+                  var xhr = new XMLHttpRequest();
+                  xhr.open("GET", "/start_flask_app?app_path=" + appPath, true);
+                  xhr.send();
+                  });
+                </script>
+                <p></p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <img src="assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
+                    <span>PRABHAT</span>
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    <i class="bx bx-user"></i>&nbsp;35
+                    &nbsp;&nbsp;
+                    <i class="bx bx-heart"></i>&nbsp;42
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="course-item">
+              <img src="assets/img/course-3.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Android Development</h4>
+                  <p class="price">$180</p>
+                </div>
+
+                <h3><a href="Android_Development_Details.html">Android Development</a></h3>
+                <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
+                    <span></span>HEMANT 
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    <i class="bx bx-user"></i>&nbsp;20
+                    &nbsp;&nbsp;
+                    <i class="bx bx-heart"></i>&nbsp;85
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <!-- End Course Item-->
 
         </div>
 
       </div>
-    </section><!-- End Trainers Section -->
+    </section><!-- End Courses Section -->
 
   </main><!-- End #main -->
 
@@ -168,10 +200,10 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>HAPNIX</h3>
             <p>
-              BHOLA ROAD  <br>
+              BHOLA ROAD <br>
               MULTAN NAGAR, MEERUT<br>
               250002 INDIA <br><br>
-              <strong>Phone:</strong>+91 9193950958<br>
+              <strong>Phone:</strong> +91 9193950958<br>
               <strong>Email:</strong> kashyaprabhat254@gmail.com<br>
             </p>
           </div>
@@ -179,7 +211,7 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
@@ -191,7 +223,7 @@
             <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="Web_Development_Details.html">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="Machine_Learning_Development_Details.html">Machine Learning</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="Machine_Learning_Development_Details.html">Machine Leading</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="Android_Development_Details.html">Android Development</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
@@ -200,7 +232,7 @@
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Join Our Newsletter</h4>
-            <p>Enter The Email Id For Updation</p>
+            <p>Enter Email Id For Updation</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
@@ -210,14 +242,14 @@
       </div>
     </div>
 
-    <div class="container d-md-flex py-4" style="background-color:black">
+    <div class="container d-md-flex py-4">
 
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
           &copy; Copyright <strong><span>HAPNIX</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-          Designed by <a href="https://www.linkedin.com/in/prabhat-kashyap-07709a22b/ ">PRABHAT KASHAYP & HEMANT KUMAR</a>
+          Designed by <a href="https://www.linkedin.com/in/prabhat-kashyap-07709a22b/ ">PRABHAT KASHYAP</a>
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
